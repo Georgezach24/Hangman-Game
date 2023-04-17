@@ -1,2 +1,3 @@
 # Hangman-Game
-Python game dev
+Python game , developed as a project by Georgios Zachos. 
+Code is open for use by everyone. 
