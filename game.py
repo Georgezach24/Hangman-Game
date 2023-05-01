@@ -154,7 +154,6 @@ def MainScreen():
     guessed = {letter: False for letter in rnd_choise}
     guess_cnt = 0
     pause = Button.Button(0, 0, PAUSE_BUTTON, 1)
-    print(rnd_choise)
 
     # Button settings
     button_size = SPACE.get_width()
@@ -193,7 +192,6 @@ def MainScreen():
                             guessed[letter] = True
                             button["image"] = BLANK
                         else:
-                            # You can add the logic here to handle a wrong guess
                             button["image"] = BLANK
                             guess_cnt += 1
                 
